@@ -1,0 +1,11 @@
+body{
+	background-color: #33fffa;
+    font-family: 'Amatic SC', cursive;
+
+}
+ header {
+ 	border: blue;
+ 	color: blue;
+ 	height: 20px;
+ 	width: 100%;
+ }
