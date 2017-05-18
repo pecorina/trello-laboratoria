@@ -9,3 +9,6 @@ body{
  	height: 20px;
  	width: 100%;
  }
+ input {
+ 	border: 2px solid #E6E6E4
+ }
