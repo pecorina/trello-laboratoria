@@ -1,9 +1,7 @@
 function agregaTrello(){
 
-
-   
-   var textoInput = document.getElementById("textoInput");
-   var btnNuevo = document.getElementById("btn-agregar");
+   var textoInput = document.getElementById("textoInput"),
+       btnNuevo = document.getElementById("btn-agregar");
 
 var btnAgregar = function(){
 	alert("agrego");
@@ -12,8 +10,7 @@ var comprobarInput = function(){
 	alert("compruebo");
 };
 
-
-btnNuevo.addEventListener("click", btnAgregar);
+textoInpu.addEventListener("click", agregaTrello);
 textoInput.addEventListener("click", comprobarInput);
 
 }
